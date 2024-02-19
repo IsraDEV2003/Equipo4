@@ -57,7 +57,7 @@ y TurbinaControl solo se encargue del control de la turbina.
         }
     ```
     **Le faltan validaciones como:**
-    - El usuario no introduzca una cadena de caracteres ( problema solo lee el primero y el resto lo deja en memoria "buffer" y puede traer como consecuncia irregularidades en la posterior ejecución del código ).
+    - El usuario no introduzca una cadena de caracteres ( problema solo lee el primero y el resto lo deja en memoria "buffer" y puede traer como consecuncia irregularidades en la posterior ejecución del código ). **Si Introduces una cadena como 'nsnsnsn' el programa no funciona de la forma esperada.**->Video Adjunto.
     - De utilizar para la lectura el 'cin' se debería de realizar una limpieza del buffer antes y luego de la entrada. Recomendación trabajar con cin.get(), cin.getline(), cin.ignore().
 ---
 7. Este fragmento de código puede estar sujeto a refactorizaciones:
