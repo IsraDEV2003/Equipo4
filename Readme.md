@@ -94,6 +94,6 @@ y TurbinaControl solo se encargue del control de la turbina.
     Cambios:
     - Se combina el if con el primer if else ya que los 2 realizan la misma funcion (apagar la turbina).
     - Ya que es la automatización de la turbina se añade el valor booleano correspondiente en cada caso.
-
-
-
+---
+8. Revisar pequeños detalles en la identación y es recomendable quitar los comandos relacionados a system(*),
+ya que estos están diseñado generalmente para la consola de Windows y podría dar conflictos si el desarrollo es multipltaforma.
